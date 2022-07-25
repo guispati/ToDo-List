@@ -1,0 +1,62 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem;
+
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.item > span {
+    flex: 1;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--gray-100);
+}
+
+.item > span.checked {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.item > button {
+    width: 1.25rem;
+    height: 1.25rem;
+    outline: 0;
+    border: 0;
+    background: url('../assets/radio.svg');
+    background-size: 1.25rem 1.25rem;
+    border-radius: 999px;
+}
+
+.item > button:hover {
+    cursor: pointer;
+    background: url('../assets/radio-hover.svg');
+    background-size: 1.25rem 1.25rem;
+}
+
+.item > button.checked {
+    background: url('../assets/radio-checked.svg');
+    background-size: 1.25rem 1.25rem;
+}
+
+.item > button.checked:hover {
+    background: url('../assets/radio-checked-hover.svg');
+    background-size: 1.25rem 1.25rem;
+}
+
+.item .delete {
+    color: var(--gray-300);
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+
+.item .delete:hover {
+    color: var(--danger);
+    background: var(--gray-400);
+}

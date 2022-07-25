@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: -1.75rem;
+}
+
+.wrapper input[type="text"] {
+    background: var(--gray-500);
+    padding: 1rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    flex: 1;
+}
+
+.wrapper input[type="text"]::placeholder {
+    color: var(--gray-300);
+}
+
+.wrapper input[type="text"]:focus-visible {
+    border: 1px solid var(--purple-dark)
+} 
+
+.wrapper button[type="submit"] {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: var(--blue-dark);
+    border-radius: 8px;
+    padding: 1rem;
+    border: 0;
+
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.wrapper button[type="submit"]:hover {
+    background: var(--blue);
+    cursor: pointer;
+}
