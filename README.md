@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img src=".github/logo.png" alt="Ignite Timer" title="Ignite Timer" />
+    <img src=".github/logo.png" alt="ToDo List" title="ToDo List" />
 </h1>
 
 <span align="center">
-    <img src=".github/cover.png" alt="Capa Ignite Timer" title="Capa Ignite Timer" />
+    <img src=".github/cover.png" alt="Capa ToDo List" title="Capa ToDo List" />
 </span>
 
 Esse projeto é uma aplicação de controle de tarefas no estilo to-do list, que contém as seguintes funcionalidades:
